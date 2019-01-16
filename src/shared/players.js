@@ -1,19 +1,28 @@
-export const PLAYERS =
+
+export const PLAYERS = 
 [
-    {
+  {
+    name: "Guil",
+    score: 0,
     id: 0,
-    name:'GUIL',
-    },
-    {
+    isMax:false
+  },
+  {
+    name: "Treasure",
+    score: 0,
     id: 1,
-    name:'TREASURE',
-    },
-    {
+    isMax:false
+  },
+  {
+    name: "Ashley",
+    score: 0,
     id: 2,
-    name:'ASHLEY'
-    },
-    {
+    isMax:false
+  },
+  {
+    name: "James",
+    score: 0,
     id: 3,
-    name:'JAMES',
-    }
+    isMax:false
+  }
 ];

@@ -1,12 +1,18 @@
-import React from "react";
+import React from 'react';
+import Stats from './Stats';
+import Stopwatch from "./Stopwatch";
 
-const Header = props => {
+const Header = (props) => {
   return (
     <header>
-      <h1>Scoreboard</h1>
-      <span className="stats">Players: {props.playersNumber}</span>
+      <Stats 
+        players = { props.players } 
+        />
+      <h1>{ props.title }</h1> 
+      <Stopwatch /> 
     </header>
+    
   );
-};
+}
 
 export default Header;
