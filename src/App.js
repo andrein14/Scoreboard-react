@@ -20,7 +20,6 @@ class App extends Component {
         }
       })
     }))
-
   }
   handleChangeScore = (id, modifier) => {
     this.setIsMax();
