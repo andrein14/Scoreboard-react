@@ -46,6 +46,7 @@ class App extends Component {
       };
     });
   };
+  
   handleAddPlayer = name => {
     
     // Genereaza un id nou, mai mare cu 1 fata de cel mai mare id din players,
